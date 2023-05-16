@@ -1,0 +1,10 @@
+[Unit]
+Description=News Watcher Test Activator
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/news_watcher --testwatch-activator
+
+[Install]
+WantedBy=multi-user.target

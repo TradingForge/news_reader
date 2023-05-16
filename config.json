@@ -1,0 +1,36 @@
+{
+  "listeners": [
+    {
+      "identifier": "cpi/htm",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "minDelay": 500,
+      "maxDelay": 1000,
+      "count": 1,
+      "apiKey": ""
+    },
+    {
+      "identifier": "cpi/api",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?latest=true",
+      "minDelay": 1200,
+      "maxDelay": 3000,
+      "count": 1,
+      "apiKey": "6ac053225190425593d38b3a67e24555"
+    },
+    {
+      "identifier": "cpi/pdf",
+      "url": "https://www.bls.gov/news.release/pdf/cpi.pdf",
+      "minDelay": 500,
+      "maxDelay": 1000,
+      "count": 1,
+      "apiKey": ""
+    },
+    {
+      "identifier": "cpi/rss",
+      "url": "https://www.bls.gov/feed/bls_latest.rss",
+      "minDelay": 500,
+      "maxDelay": 1000,
+      "count": 1,
+      "apiKey": ""
+    }
+  ]
+}

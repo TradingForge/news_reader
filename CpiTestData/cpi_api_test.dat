@@ -1,0 +1,4 @@
+{"status":"REQUEST_SUCCEEDED","responseTime":205,"message":[],"Results":{
+"series":
+[{"seriesID":"CUUR0000SA0","data":[{"year":"2022","period":"M13","periodName":"Test","latest":"true","value":"333.333","footnotes":[{}]}]}]
+}}

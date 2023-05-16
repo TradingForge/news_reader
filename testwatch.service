@@ -1,0 +1,10 @@
+[Unit]
+Description=News Watcher Test
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/news_watcher --test
+
+[Install]
+WantedBy=multi-user.target
